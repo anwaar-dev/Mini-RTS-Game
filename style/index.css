@@ -25,6 +25,7 @@ body{
 	background-size: contain;
 	position: absolute;
 	z-index: 5;
+	display: none;
 }
 
 info Bar{
@@ -46,7 +47,8 @@ info Bar{
 	z-index: 10;
 }
 .coinsBar{background-image: url('../img/ui/coinsBar.png');}
-.peepsBar{background-image: url('../img/ui/peepsBar.png');top: 55px;}
+.happinessBar{background-image: url('../img/ui/peepsBar.png');top: 55px;}
+.peepsBar{background-image: url('../img/ui/peepsBar.png');top: 110px;}
 
 section{
 	display: none;
@@ -55,7 +57,7 @@ section{
 	background: #000000db;
 	transition-duration: 0.25s;
 	position: absolute;
-	z-index: 5;
+	z-index: 15;
 	justify-content: center;
 	align-content: flex-start;
 	align-items: center;
@@ -93,6 +95,7 @@ section build{
 }
 section build.houses{background-image: url('../img/builds/home.png');}
 section build.crops{background-image: url('../img/builds/crops.png');}
+section build.factory{background-image: url('../img/builds/factory.png');}
 
 container{
 	width: 1056px;
