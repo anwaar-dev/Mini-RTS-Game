@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RTS by Anwaar</title>
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+	<info>
+		<Bar class="coinsBar"><span>0</span></Bar>
+		<Bar class="peepsBar"><span>0</span></Bar>
+	</info>
+	<section>
+		<nav>Place Building <div id="closeBuild">X</div></nav>
+		<build class="houses" onclick="build('houses')"></build>
+		<build class="crops" onclick="build('crops')"></build>
+	</section>
+
+	<!-- STORM -->
+
+	<container>
+		<blocks>
+			<!-- ROW NO: 1 -->
+	<div id="stormBlock"></div>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 2 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 3 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 4 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 5 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 6 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 7 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 8 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 9 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 10 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 11 -->
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="" onclick="blockClick(this)"></block>
+			<block class="border"></block>
+			<!-- ROW NO: 12 -->
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<block class="border"></block>
+			<!-- ROW END -->
+		</blocks>
+
+		<mapImage></mapImage>
+	</container>
+
+
+
+	<script src="scripts/classes.js"></script>
+	<script src="scripts/index.js"></script>
+</body>
+</html>
