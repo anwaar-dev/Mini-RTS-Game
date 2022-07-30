@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>RTS by Anwaar</title>
 	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="icon" href="img/icon.png">
 </head>
 <body>
 	<info>
@@ -16,14 +17,13 @@
 		<build class="houses" onclick="build('houses')"></build>
 		<build class="crops" onclick="build('crops')"></build>
 		<build class="factory" onclick="build('factory')"></build>
+		<build class="fort" onclick="build('fort')"></build>
 	</section>
 
-	<!-- STORM -->
 
 	<container>
 		<blocks>
 			<!-- ROW NO: 1 -->
-	<div id="stormBlock"></div>
 			<block class="border"></block>
 			<block class="border"></block>
 			<block class="border"></block>
@@ -48,233 +48,233 @@
 			<block class="border"></block>
 			<!-- ROW NO: 2 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '1')"></block>
-			<block class="" onclick="blockClick(this, '2')"></block>
-			<block class="" onclick="blockClick(this, '3')"></block>
-			<block class="" onclick="blockClick(this, '4')"></block>
-			<block class="" onclick="blockClick(this, '5')"></block>
-			<block class="" onclick="blockClick(this, '6')"></block>
-			<block class="" onclick="blockClick(this, '7')"></block>
-			<block class="" onclick="blockClick(this, '8')"></block>
-			<block class="" onclick="blockClick(this, '9')"></block>
-			<block class="" onclick="blockClick(this, '10')"></block>
-			<block class="" onclick="blockClick(this, '12')"></block>
-			<block class="" onclick="blockClick(this, '13')"></block>
-			<block class="" onclick="blockClick(this, '14')"></block>
-			<block class="" onclick="blockClick(this, '15')"></block>
-			<block class="" onclick="blockClick(this, '16')"></block>
-			<block class="" onclick="blockClick(this, '17')"></block>
-			<block class="" onclick="blockClick(this, '18')"></block>
-			<block class="" onclick="blockClick(this, '19')"></block>
-			<block class="" onclick="blockClick(this, '20')"></block>
-			<block class="" onclick="blockClick(this, '21')"></block>
+			<block class="b1" onclick="blockClick(this, '1')"></block>
+			<block class="b2" onclick="blockClick(this, '2')"></block>
+			<block class="b3" onclick="blockClick(this, '3')"></block>
+			<block class="b4" onclick="blockClick(this, '4')"></block>
+			<block class="b5" onclick="blockClick(this, '5')"></block>
+			<block class="b6" onclick="blockClick(this, '6')"></block>
+			<block class="b7" onclick="blockClick(this, '7')"></block>
+			<block class="b8" onclick="blockClick(this, '8')"></block>
+			<block class="b9" onclick="blockClick(this, '9')"></block>
+			<block class="b10" onclick="blockClick(this, '10')"></block>
+			<block class="b11" onclick="blockClick(this, '11')"></block>
+			<block class="b12" onclick="blockClick(this, '12')"></block>
+			<block class="b13" onclick="blockClick(this, '13')"></block>
+			<block class="b14" onclick="blockClick(this, '14')"></block>
+			<block class="b15" onclick="blockClick(this, '15')"></block>
+			<block class="b16" onclick="blockClick(this, '16')"></block>
+			<block class="b17" onclick="blockClick(this, '17')"></block>
+			<block class="b18" onclick="blockClick(this, '18')"></block>
+			<block class="b19" onclick="blockClick(this, '19')"></block>
+			<block class="b20" onclick="blockClick(this, '20')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 3 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '22')"></block>
-			<block class="" onclick="blockClick(this, '23')"></block>
-			<block class="" onclick="blockClick(this, '24')"></block>
-			<block class="" onclick="blockClick(this, '25')"></block>
-			<block class="" onclick="blockClick(this, '26')"></block>
-			<block class="" onclick="blockClick(this, '27')"></block>
-			<block class="" onclick="blockClick(this, '28')"></block>
-			<block class="" onclick="blockClick(this, '29')"></block>
-			<block class="" onclick="blockClick(this, '30')"></block>
-			<block class="" onclick="blockClick(this, '31')"></block>
-			<block class="" onclick="blockClick(this, '32')"></block>
-			<block class="" onclick="blockClick(this, '33')"></block>
-			<block class="" onclick="blockClick(this, '34')"></block>
-			<block class="" onclick="blockClick(this, '35')"></block>
-			<block class="" onclick="blockClick(this, '36')"></block>
-			<block class="" onclick="blockClick(this, '37')"></block>
-			<block class="" onclick="blockClick(this, '38')"></block>
-			<block class="" onclick="blockClick(this, '39')"></block>
-			<block class="" onclick="blockClick(this, '40')"></block>
-			<block class="" onclick="blockClick(this, '41')"></block>
+			<block class="b21" onclick="blockClick(this, '21')"></block>
+			<block class="b22" onclick="blockClick(this, '22')"></block>
+			<block class="b23" onclick="blockClick(this, '23')"></block>
+			<block class="b24" onclick="blockClick(this, '24')"></block>
+			<block class="b25" onclick="blockClick(this, '25')"></block>
+			<block class="b26" onclick="blockClick(this, '26')"></block>
+			<block class="b27" onclick="blockClick(this, '27')"></block>
+			<block class="b28" onclick="blockClick(this, '28')"></block>
+			<block class="b29" onclick="blockClick(this, '29')"></block>
+			<block class="b30" onclick="blockClick(this, '30')"></block>
+			<block class="b31" onclick="blockClick(this, '31')"></block>
+			<block class="b32" onclick="blockClick(this, '32')"></block>
+			<block class="b33" onclick="blockClick(this, '33')"></block>
+			<block class="b34" onclick="blockClick(this, '34')"></block>
+			<block class="b35" onclick="blockClick(this, '35')"></block>
+			<block class="b36" onclick="blockClick(this, '36')"></block>
+			<block class="b37" onclick="blockClick(this, '37')"></block>
+			<block class="b38" onclick="blockClick(this, '38')"></block>
+			<block class="b39" onclick="blockClick(this, '39')"></block>
+			<block class="b40" onclick="blockClick(this, '40')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 4 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '42')"></block>
-			<block class="" onclick="blockClick(this, '43')"></block>
-			<block class="" onclick="blockClick(this, '44')"></block>
-			<block class="" onclick="blockClick(this, '45')"></block>
-			<block class="" onclick="blockClick(this, '46')"></block>
-			<block class="" onclick="blockClick(this, '47')"></block>
-			<block class="" onclick="blockClick(this, '48')"></block>
-			<block class="" onclick="blockClick(this, '49')"></block>
-			<block class="" onclick="blockClick(this, '50')"></block>
-			<block class="" onclick="blockClick(this, '51')"></block>
-			<block class="" onclick="blockClick(this, '52')"></block>
-			<block class="" onclick="blockClick(this, '53')"></block>
-			<block class="" onclick="blockClick(this, '54')"></block>
-			<block class="" onclick="blockClick(this, '55')"></block>
-			<block class="" onclick="blockClick(this, '56')"></block>
-			<block class="" onclick="blockClick(this, '57')"></block>
-			<block class="" onclick="blockClick(this, '58')"></block>
-			<block class="" onclick="blockClick(this, '59')"></block>
-			<block class="" onclick="blockClick(this, '60')"></block>
-			<block class="" onclick="blockClick(this, '61')"></block>
+			<block class="b41" onclick="blockClick(this, '41')"></block>
+			<block class="b42" onclick="blockClick(this, '42')"></block>
+			<block class="b43" onclick="blockClick(this, '43')"></block>
+			<block class="b44" onclick="blockClick(this, '44')"></block>
+			<block class="b45" onclick="blockClick(this, '45')"></block>
+			<block class="b46" onclick="blockClick(this, '46')"></block>
+			<block class="b47" onclick="blockClick(this, '47')"></block>
+			<block class="b48" onclick="blockClick(this, '48')"></block>
+			<block class="b49" onclick="blockClick(this, '49')"></block>
+			<block class="b50" onclick="blockClick(this, '50')"></block>
+			<block class="b51" onclick="blockClick(this, '51')"></block>
+			<block class="b52" onclick="blockClick(this, '52')"></block>
+			<block class="b53" onclick="blockClick(this, '53')"></block>
+			<block class="b54" onclick="blockClick(this, '54')"></block>
+			<block class="b55" onclick="blockClick(this, '55')"></block>
+			<block class="b56" onclick="blockClick(this, '56')"></block>
+			<block class="b57" onclick="blockClick(this, '57')"></block>
+			<block class="b58" onclick="blockClick(this, '58')"></block>
+			<block class="b59" onclick="blockClick(this, '59')"></block>
+			<block class="b60" onclick="blockClick(this, '60')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 5 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '62')"></block>
-			<block class="" onclick="blockClick(this, '63')"></block>
-			<block class="" onclick="blockClick(this, '64')"></block>
-			<block class="" onclick="blockClick(this, '65')"></block>
-			<block class="" onclick="blockClick(this, '66')"></block>
-			<block class="" onclick="blockClick(this, '67')"></block>
-			<block class="" onclick="blockClick(this, '68')"></block>
-			<block class="" onclick="blockClick(this, '69')"></block>
-			<block class="" onclick="blockClick(this, '70')"></block>
-			<block class="" onclick="blockClick(this, '71')"></block>
-			<block class="" onclick="blockClick(this, '72')"></block>
-			<block class="" onclick="blockClick(this, '73')"></block>
-			<block class="" onclick="blockClick(this, '74')"></block>
-			<block class="" onclick="blockClick(this, '75')"></block>
-			<block class="" onclick="blockClick(this, '76')"></block>
-			<block class="" onclick="blockClick(this, '77')"></block>
-			<block class="" onclick="blockClick(this, '78')"></block>
-			<block class="" onclick="blockClick(this, '79')"></block>
-			<block class="" onclick="blockClick(this, '80')"></block>
-			<block class="" onclick="blockClick(this, '81')"></block>
+			<block class="b61" onclick="blockClick(this, '61')"></block>
+			<block class="b62" onclick="blockClick(this, '62')"></block>
+			<block class="b63" onclick="blockClick(this, '63')"></block>
+			<block class="b64" onclick="blockClick(this, '64')"></block>
+			<block class="b65" onclick="blockClick(this, '65')"></block>
+			<block class="b66" onclick="blockClick(this, '66')"></block>
+			<block class="b67" onclick="blockClick(this, '67')"></block>
+			<block class="b68" onclick="blockClick(this, '68')"></block>
+			<block class="b69" onclick="blockClick(this, '69')"></block>
+			<block class="b70" onclick="blockClick(this, '70')"></block>
+			<block class="b71" onclick="blockClick(this, '71')"></block>
+			<block class="b72" onclick="blockClick(this, '72')"></block>
+			<block class="b73" onclick="blockClick(this, '73')"></block>
+			<block class="b74" onclick="blockClick(this, '74')"></block>
+			<block class="b75" onclick="blockClick(this, '75')"></block>
+			<block class="b76" onclick="blockClick(this, '76')"></block>
+			<block class="b77" onclick="blockClick(this, '77')"></block>
+			<block class="b78" onclick="blockClick(this, '78')"></block>
+			<block class="b79" onclick="blockClick(this, '79')"></block>
+			<block class="b80" onclick="blockClick(this, '80')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 6 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '82')"></block>
-			<block class="" onclick="blockClick(this, '83')"></block>
-			<block class="" onclick="blockClick(this, '84')"></block>
-			<block class="" onclick="blockClick(this, '85')"></block>
-			<block class="" onclick="blockClick(this, '86')"></block>
-			<block class="" onclick="blockClick(this, '87')"></block>
-			<block class="" onclick="blockClick(this, '88')"></block>
-			<block class="" onclick="blockClick(this, '89')"></block>
-			<block class="" onclick="blockClick(this, '90')"></block>
-			<block class="" onclick="blockClick(this, '91')"></block>
-			<block class="" onclick="blockClick(this, '92')"></block>
-			<block class="" onclick="blockClick(this, '93')"></block>
-			<block class="" onclick="blockClick(this, '94')"></block>
-			<block class="" onclick="blockClick(this, '95')"></block>
-			<block class="" onclick="blockClick(this, '96')"></block>
-			<block class="" onclick="blockClick(this, '97')"></block>
-			<block class="" onclick="blockClick(this, '98')"></block>
-			<block class="" onclick="blockClick(this, '99')"></block>
-			<block class="" onclick="blockClick(this, '100')"></block>
-			<block class="" onclick="blockClick(this, '101')"></block>
+			<block class="b81" onclick="blockClick(this, '81')"></block>
+			<block class="b82" onclick="blockClick(this, '82')"></block>
+			<block class="b83" onclick="blockClick(this, '83')"></block>
+			<block class="b84" onclick="blockClick(this, '84')"></block>
+			<block class="b85" onclick="blockClick(this, '85')"></block>
+			<block class="b86" onclick="blockClick(this, '86')"></block>
+			<block class="b87" onclick="blockClick(this, '87')"></block>
+			<block class="b88" onclick="blockClick(this, '88')"></block>
+			<block class="b89" onclick="blockClick(this, '89')"></block>
+			<block class="b90" onclick="blockClick(this, '90')"></block>
+			<block class="b91" onclick="blockClick(this, '91')"></block>
+			<block class="b92" onclick="blockClick(this, '92')"></block>
+			<block class="b93" onclick="blockClick(this, '93')"></block>
+			<block class="b94" onclick="blockClick(this, '94')"></block>
+			<block class="b95" onclick="blockClick(this, '95')"></block>
+			<block class="b96" onclick="blockClick(this, '96')"></block>
+			<block class="b97" onclick="blockClick(this, '97')"></block>
+			<block class="b98" onclick="blockClick(this, '98')"></block>
+			<block class="b99" onclick="blockClick(this, '99')"></block>
+			<block class="b100" onclick="blockClick(this, '100')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 7 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '101')"></block>
-			<block class="" onclick="blockClick(this, '102')"></block>
-			<block class="" onclick="blockClick(this, '103')"></block>
-			<block class="" onclick="blockClick(this, '104')"></block>
-			<block class="" onclick="blockClick(this, '105')"></block>
-			<block class="" onclick="blockClick(this, '106')"></block>
-			<block class="" onclick="blockClick(this, '107')"></block>
-			<block class="" onclick="blockClick(this, '108')"></block>
-			<block class="" onclick="blockClick(this, '109')"></block>
-			<block class="" onclick="blockClick(this, '110')"></block>
-			<block class="" onclick="blockClick(this, '112')"></block>
-			<block class="" onclick="blockClick(this, '113')"></block>
-			<block class="" onclick="blockClick(this, '114')"></block>
-			<block class="" onclick="blockClick(this, '115')"></block>
-			<block class="" onclick="blockClick(this, '116')"></block>
-			<block class="" onclick="blockClick(this, '117')"></block>
-			<block class="" onclick="blockClick(this, '118')"></block>
-			<block class="" onclick="blockClick(this, '119')"></block>
-			<block class="" onclick="blockClick(this, '120')"></block>
-			<block class="" onclick="blockClick(this, '121')"></block>
+			<block class="b101" onclick="blockClick(this, '101')"></block>
+			<block class="b102" onclick="blockClick(this, '102')"></block>
+			<block class="b103" onclick="blockClick(this, '103')"></block>
+			<block class="b104" onclick="blockClick(this, '104')"></block>
+			<block class="b105" onclick="blockClick(this, '105')"></block>
+			<block class="b106" onclick="blockClick(this, '106')"></block>
+			<block class="b107" onclick="blockClick(this, '107')"></block>
+			<block class="b108" onclick="blockClick(this, '108')"></block>
+			<block class="b109" onclick="blockClick(this, '109')"></block>
+			<block class="b110" onclick="blockClick(this, '110')"></block>
+			<block class="b111" onclick="blockClick(this, '111')"></block>
+			<block class="b112" onclick="blockClick(this, '112')"></block>
+			<block class="b113" onclick="blockClick(this, '113')"></block>
+			<block class="b114" onclick="blockClick(this, '114')"></block>
+			<block class="b115" onclick="blockClick(this, '115')"></block>
+			<block class="b116" onclick="blockClick(this, '116')"></block>
+			<block class="b117" onclick="blockClick(this, '117')"></block>
+			<block class="b118" onclick="blockClick(this, '118')"></block>
+			<block class="b119" onclick="blockClick(this, '119')"></block>
+			<block class="b120" onclick="blockClick(this, '120')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 8 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '122')"></block>
-			<block class="" onclick="blockClick(this, '123')"></block>
-			<block class="" onclick="blockClick(this, '124')"></block>
-			<block class="" onclick="blockClick(this, '125')"></block>
-			<block class="" onclick="blockClick(this, '126')"></block>
-			<block class="" onclick="blockClick(this, '127')"></block>
-			<block class="" onclick="blockClick(this, '128')"></block>
-			<block class="" onclick="blockClick(this, '129')"></block>
-			<block class="" onclick="blockClick(this, '130')"></block>
-			<block class="" onclick="blockClick(this, '131')"></block>
-			<block class="" onclick="blockClick(this, '132')"></block>
-			<block class="" onclick="blockClick(this, '133')"></block>
-			<block class="" onclick="blockClick(this, '134')"></block>
-			<block class="" onclick="blockClick(this, '135')"></block>
-			<block class="" onclick="blockClick(this, '136')"></block>
-			<block class="" onclick="blockClick(this, '137')"></block>
-			<block class="" onclick="blockClick(this, '138')"></block>
-			<block class="" onclick="blockClick(this, '139')"></block>
-			<block class="" onclick="blockClick(this, '140')"></block>
-			<block class="" onclick="blockClick(this, '141')"></block>
+			<block class="b121" onclick="blockClick(this, '121')"></block>
+			<block class="b122" onclick="blockClick(this, '122')"></block>
+			<block class="b123" onclick="blockClick(this, '123')"></block>
+			<block class="b124" onclick="blockClick(this, '124')"></block>
+			<block class="b125" onclick="blockClick(this, '125')"></block>
+			<block class="b126" onclick="blockClick(this, '126')"></block>
+			<block class="b127" onclick="blockClick(this, '127')"></block>
+			<block class="b128" onclick="blockClick(this, '128')"></block>
+			<block class="b129" onclick="blockClick(this, '129')"></block>
+			<block class="b130" onclick="blockClick(this, '130')"></block>
+			<block class="b131" onclick="blockClick(this, '131')"></block>
+			<block class="b132" onclick="blockClick(this, '132')"></block>
+			<block class="b133" onclick="blockClick(this, '133')"></block>
+			<block class="b134" onclick="blockClick(this, '134')"></block>
+			<block class="b135" onclick="blockClick(this, '135')"></block>
+			<block class="b136" onclick="blockClick(this, '136')"></block>
+			<block class="b137" onclick="blockClick(this, '137')"></block>
+			<block class="b138" onclick="blockClick(this, '138')"></block>
+			<block class="b139" onclick="blockClick(this, '139')"></block>
+			<block class="b140" onclick="blockClick(this, '140')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 9 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '142')"></block>
-			<block class="" onclick="blockClick(this, '143')"></block>
-			<block class="" onclick="blockClick(this, '144')"></block>
-			<block class="" onclick="blockClick(this, '145')"></block>
-			<block class="" onclick="blockClick(this, '146')"></block>
-			<block class="" onclick="blockClick(this, '147')"></block>
-			<block class="" onclick="blockClick(this, '148')"></block>
-			<block class="" onclick="blockClick(this, '149')"></block>
-			<block class="" onclick="blockClick(this, '150')"></block>
-			<block class="" onclick="blockClick(this, '151')"></block>
-			<block class="" onclick="blockClick(this, '152')"></block>
-			<block class="" onclick="blockClick(this, '153')"></block>
-			<block class="" onclick="blockClick(this, '154')"></block>
-			<block class="" onclick="blockClick(this, '155')"></block>
-			<block class="" onclick="blockClick(this, '156')"></block>
-			<block class="" onclick="blockClick(this, '157')"></block>
-			<block class="" onclick="blockClick(this, '158')"></block>
-			<block class="" onclick="blockClick(this, '159')"></block>
-			<block class="" onclick="blockClick(this, '160')"></block>
-			<block class="" onclick="blockClick(this, '161')"></block>
+			<block class="b141" onclick="blockClick(this, '141')"></block>
+			<block class="b142" onclick="blockClick(this, '142')"></block>
+			<block class="b143" onclick="blockClick(this, '143')"></block>
+			<block class="b144" onclick="blockClick(this, '144')"></block>
+			<block class="b145" onclick="blockClick(this, '145')"></block>
+			<block class="b146" onclick="blockClick(this, '146')"></block>
+			<block class="b147" onclick="blockClick(this, '147')"></block>
+			<block class="b148" onclick="blockClick(this, '148')"></block>
+			<block class="b149" onclick="blockClick(this, '149')"></block>
+			<block class="b150" onclick="blockClick(this, '150')"></block>
+			<block class="b151" onclick="blockClick(this, '151')"></block>
+			<block class="b152" onclick="blockClick(this, '152')"></block>
+			<block class="b153" onclick="blockClick(this, '153')"></block>
+			<block class="b154" onclick="blockClick(this, '154')"></block>
+			<block class="b155" onclick="blockClick(this, '155')"></block>
+			<block class="b156" onclick="blockClick(this, '156')"></block>
+			<block class="b157" onclick="blockClick(this, '157')"></block>
+			<block class="b158" onclick="blockClick(this, '158')"></block>
+			<block class="b159" onclick="blockClick(this, '159')"></block>
+			<block class="b160" onclick="blockClick(this, '160')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 10 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '182')"></block>
-			<block class="" onclick="blockClick(this, '183')"></block>
-			<block class="" onclick="blockClick(this, '184')"></block>
-			<block class="" onclick="blockClick(this, '185')"></block>
-			<block class="" onclick="blockClick(this, '186')"></block>
-			<block class="" onclick="blockClick(this, '187')"></block>
-			<block class="" onclick="blockClick(this, '188')"></block>
-			<block class="" onclick="blockClick(this, '189')"></block>
-			<block class="" onclick="blockClick(this, '190')"></block>
-			<block class="" onclick="blockClick(this, '191')"></block>
-			<block class="" onclick="blockClick(this, '192')"></block>
-			<block class="" onclick="blockClick(this, '193')"></block>
-			<block class="" onclick="blockClick(this, '194')"></block>
-			<block class="" onclick="blockClick(this, '195')"></block>
-			<block class="" onclick="blockClick(this, '196')"></block>
-			<block class="" onclick="blockClick(this, '197')"></block>
-			<block class="" onclick="blockClick(this, '198')"></block>
-			<block class="" onclick="blockClick(this, '199')"></block>
-			<block class="" onclick="blockClick(this, '200')"></block>
-			<block class="" onclick="blockClick(this, '201')"></block>
+			<block class="b161" onclick="blockClick(this, '161')"></block>
+			<block class="b162" onclick="blockClick(this, '162')"></block>
+			<block class="b163" onclick="blockClick(this, '163')"></block>
+			<block class="b164" onclick="blockClick(this, '164')"></block>
+			<block class="b165" onclick="blockClick(this, '165')"></block>
+			<block class="b166" onclick="blockClick(this, '166')"></block>
+			<block class="b167" onclick="blockClick(this, '167')"></block>
+			<block class="b168" onclick="blockClick(this, '168')"></block>
+			<block class="b169" onclick="blockClick(this, '169')"></block>
+			<block class="b170" onclick="blockClick(this, '170')"></block>
+			<block class="b171" onclick="blockClick(this, '171')"></block>
+			<block class="b172" onclick="blockClick(this, '172')"></block>
+			<block class="b173" onclick="blockClick(this, '173')"></block>
+			<block class="b174" onclick="blockClick(this, '174')"></block>
+			<block class="b175" onclick="blockClick(this, '175')"></block>
+			<block class="b176" onclick="blockClick(this, '176')"></block>
+			<block class="b177" onclick="blockClick(this, '177')"></block>
+			<block class="b178" onclick="blockClick(this, '178')"></block>
+			<block class="b179" onclick="blockClick(this, '179')"></block>
+			<block class="b180" onclick="blockClick(this, '180')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 11 -->
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '202')"></block>
-			<block class="" onclick="blockClick(this, '203')"></block>
-			<block class="" onclick="blockClick(this, '204')"></block>
-			<block class="" onclick="blockClick(this, '205')"></block>
-			<block class="" onclick="blockClick(this, '206')"></block>
-			<block class="" onclick="blockClick(this, '207')"></block>
-			<block class="" onclick="blockClick(this, '208')"></block>
-			<block class="" onclick="blockClick(this, '209')"></block>
+			<block class="b181" onclick="blockClick(this, '181')"></block>
+			<block class="b182" onclick="blockClick(this, '182')"></block>
+			<block class="b183" onclick="blockClick(this, '183')"></block>
+			<block class="b184" onclick="blockClick(this, '184')"></block>
+			<block class="b185" onclick="blockClick(this, '185')"></block>
+			<block class="b186" onclick="blockClick(this, '186')"></block>
+			<block class="b187" onclick="blockClick(this, '187')"></block>
+			<block class="b188" onclick="blockClick(this, '188')"></block>
 			<block class="border"></block>
 			<block class="border"></block>
 			<block class="border"></block>
 			<block class="border"></block>
-			<block class="" onclick="blockClick(this, '210')"></block>
-			<block class="" onclick="blockClick(this, '211')"></block>
-			<block class="" onclick="blockClick(this, '212')"></block>
-			<block class="" onclick="blockClick(this, '213')"></block>
-			<block class="" onclick="blockClick(this, '214')"></block>
-			<block class="" onclick="blockClick(this, '215')"></block>
-			<block class="" onclick="blockClick(this, '216')"></block>
-			<block class="" onclick="blockClick(this, '217')"></block>
+			<block class="b189" onclick="blockClick(this, '189')"></block>
+			<block class="b190" onclick="blockClick(this, '190')"></block>
+			<block class="b191" onclick="blockClick(this, '191')"></block>
+			<block class="b192" onclick="blockClick(this, '192')"></block>
+			<block class="b193" onclick="blockClick(this, '193')"></block>
+			<block class="b194" onclick="blockClick(this, '194')"></block>
+			<block class="b195" onclick="blockClick(this, '195')"></block>
+			<block class="b196" onclick="blockClick(this, '196')"></block>
 			<block class="border"></block>
 			<!-- ROW NO: 12 -->
 			<block class="border"></block>

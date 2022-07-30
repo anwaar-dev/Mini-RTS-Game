@@ -1,6 +1,6 @@
 html{
 	image-rendering: pixelated;
-	background: #000;
+	background: #4FAF7B;
 }
 *{
 	padding: 0;
@@ -26,6 +26,14 @@ body{
 	position: absolute;
 	z-index: 5;
 	display: none;
+}
+#armyBlock{
+	width: 48px;
+	height: 48px;
+	background-image: url('../img/army.png');
+	background-size: contain;
+	position: absolute;
+	z-index: 5;
 }
 
 info Bar{
@@ -77,7 +85,7 @@ section nav{
 section nav div{
     align-self: flex-end;
     justify-self: flex-end;
-    background: red;
+    background: rgb(255, 29, 29);
     color: white;
     /* height: 45px; */
     position: absolute;
@@ -96,6 +104,7 @@ section build{
 section build.houses{background-image: url('../img/builds/home.png');}
 section build.crops{background-image: url('../img/builds/crops.png');}
 section build.factory{background-image: url('../img/builds/factory.png');}
+section build.fort{background-image: url('../img/builds/fort.png');}
 
 container{
 	width: 1056px;
