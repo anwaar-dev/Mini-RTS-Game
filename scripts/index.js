@@ -1,7 +1,7 @@
 let Element; // Last Block that was clicked
 let ElementBlockNumber; // Last Block that was clicked
 
-let Coins = 160; // Money
+let Coins = 60; // Money
 let Happiness = 0; // Happiness
 let Peeps = 5; // Population pr number of people
 let PeepsCap = 5; // Miximum Population alowed
@@ -15,7 +15,7 @@ let stormDelay = 0; // Storm will come after this Delay
 
 
 
-let stormBlock = document.querySelector('#stormBlock');
+// let stormBlock = document.querySelector('#stormBlock'); - 30/7/22
 let Menu = document.querySelector('section');
 let closeBuild = document.querySelector('#closeBuild');
 let coinsBar = document.querySelector('.coinsBar');
@@ -91,7 +91,7 @@ function makeStorm() {
 
 
 
-
+// Check if the land block is empty
 function landIsEmpty(ele) {
 	for (let i = 0; i < landBlocks.length; i++) {
 		if(ele==i){
@@ -105,24 +105,26 @@ function landIsEmpty(ele) {
 }
 
 
-
+// Count the happiness, used in animate()
 function countHappiness() {
 	let score = 0;
 	score = 0;
-	score += Coins/100;
-	score += Peeps/10;
-	score += farmsNo*2.5;
-	score += PeepsCap/10;
-	score = (score*100) /100;
-	if(Peeps>farmsNo*2){score = score*0.98}
-	if(Peeps>farmsNo*5){score = score*0.9}
-	if(Peeps>farmsNo*10){score = score*0.8}
-	if(Peeps>farmsNo*20){score = score*0.6}
+	score += Coins/100; // Coins ++
+	score += Peeps/10; // Peeps ++
+	score += farmsNo*1.5; // Number of Farms ++
+	score += PeepsCap/10; // Capacity of Peeps ++
+	score = (score*100) /100; // Get %age of it
+	if(Peeps>farmsNo*2){score = score*0.98} // Less fams, more Peeps --
+	if(Peeps>farmsNo*5){score = score*0.9}  // ^
+	if(Peeps>farmsNo*10){score = score*0.8} // ^
+	if(Peeps>farmsNo*20){score = score*0.6} // ^
 
-	if(score>100){score=100}
+	if(score>100){score=100} // Make it less than 100
 
-	Happiness = Math.round(score);
+	Happiness = Math.round(score); // Finale value given
 	
 }
+
+
 
 animate();
