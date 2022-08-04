@@ -7,11 +7,13 @@
 	<link rel="icon" href="img/icon.png">
 </head>
 <body>
+	<alert>Alert</alert>
 	<info>
 		<Bar class="coinsBar"><span>0</span></Bar>
 		<Bar class="happinessBar"><span>0</span></Bar>
 		<Bar class="peepsBar"><span>0</span></Bar>
 	</info>
+	<destroyBtn onclick="if(DestroyToggle){alertFunction('none');DestroyToggle=false}else{alertFunction('destroyBuild');DestroyToggle=true};"></destroyBtn>
 	<section>
 		<nav>Place Building <div id="closeBuild">X</div></nav>
 		<build class="houses" onclick="build('houses')"></build>
@@ -306,8 +308,10 @@
 	</container>
 
 
-
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 	<script src="scripts/classes.js"></script>
+	<script src="scripts/var.js"></script>
+	<script src="scripts/click.js"></script>
 	<script src="scripts/index.js"></script>
 </body>
 </html>
