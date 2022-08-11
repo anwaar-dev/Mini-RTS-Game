@@ -1,3 +1,8 @@
 # Mini Real Time Strategy Game
-A web-based RTS game developed in vanilla javascript.
-Please do not sell the graphics used in this game without my or artist's permision.
+<b>Play at:<br> https://anwaar-rts.netlify.app/</b> <br>
+A web-based RTS game developed in vanilla JavaScript. <br>
+<b>If You like my work, please give it a star.</b>
+<br>
+<br>
+<b>Note:</b> <br>
+Please do not sell the Game Assets without My or the Artist's permission. Also, the index.html file is pretty messy, so be careful while editing.
