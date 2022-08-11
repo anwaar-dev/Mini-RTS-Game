@@ -6,4 +6,3 @@ A web-based RTS game developed in vanilla JavaScript. <br>
 <br>
 <b>Note:</b> <br>
 Please do not sell the Game Assets without My or the Artist's permission. Also, the index.html file is pretty messy, so be careful while editing.
-#js #html #css #game #web-game #webgame #rpg #rts #2d
